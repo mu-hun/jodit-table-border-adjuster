@@ -1,0 +1,87 @@
+.jodit-wysiwyg table[data-border-top] tr:first-of-type :where(td, th) {
+  border-top-width: 0;
+}
+.jodit-wysiwyg table[data-border-bottom] tr:last-of-type :where(td, th) {
+  border-bottom-width: 0;
+}
+.jodit-wysiwyg table[data-border-left] tr :where(td, th) {
+  border-left-width: 0;
+}
+.jodit-wysiwyg table[data-border-right] tr :where(td, th):last-of-type {
+  border-right-width: 0;
+}
+.jodit-wysiwyg table[data-border-top="none"] {
+  border-top-width: 0;
+}
+.jodit-wysiwyg table[data-border-top="normal"] {
+  border-top-width: 1px;
+}
+.jodit-wysiwyg table[data-border-top="medium"] {
+  border-top-width: 2px;
+}
+.jodit-wysiwyg table[data-border-top="thick"] {
+  border-top-width: 3px;
+}
+.jodit-wysiwyg table[data-border-top="extra-thick"] {
+  border-top-width: 4px;
+}
+.jodit-wysiwyg table[data-border-bottom="none"] {
+  border-bottom-width: 0;
+}
+.jodit-wysiwyg table[data-border-bottom="normal"] {
+  border-bottom-width: 1px;
+}
+.jodit-wysiwyg table[data-border-bottom="medium"] {
+  border-bottom-width: 2px;
+}
+.jodit-wysiwyg table[data-border-bottom="thick"] {
+  border-bottom-width: 3px;
+}
+.jodit-wysiwyg table[data-border-bottom="extra-thick"] {
+  border-bottom-width: 4px;
+}
+.jodit-wysiwyg table[data-border-left="none"] {
+  border-left-width: 0;
+}
+.jodit-wysiwyg table[data-border-left="normal"] {
+  border-left-width: 1px;
+}
+.jodit-wysiwyg table[data-border-left="medium"] {
+  border-left-width: 2px;
+}
+.jodit-wysiwyg table[data-border-left="thick"] {
+  border-left-width: 3px;
+}
+.jodit-wysiwyg table[data-border-left="extra-thick"] {
+  border-left-width: 4px;
+}
+.jodit-wysiwyg table[data-border-right="none"] {
+  border-right-width: 0;
+}
+.jodit-wysiwyg table[data-border-right="normal"] {
+  border-right-width: 1px;
+}
+.jodit-wysiwyg table[data-border-right="medium"] {
+  border-right-width: 2px;
+}
+.jodit-wysiwyg table[data-border-right="thick"] {
+  border-right-width: 3px;
+}
+.jodit-wysiwyg table[data-border-right="extra-thick"] {
+  border-right-width: 4px;
+}
+.jodit-wysiwyg table td[data-border-width="none"] {
+  border-width: 0;
+}
+.jodit-wysiwyg table td[data-border-width="normal"] {
+  border-width: 1px;
+}
+.jodit-wysiwyg table td[data-border-width="medium"] {
+  border-width: 2px;
+}
+.jodit-wysiwyg table td[data-border-width="thick"] {
+  border-width: 3px;
+}
+.jodit-wysiwyg table td[data-border-width="extra-thick"] {
+  border-width: 4px;
+}
