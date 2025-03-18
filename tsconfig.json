@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+
+    /* Modules */
+    "module": "ESNext",
+    "rootDir": "src",
+    "moduleResolution": "node10",
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["vite.config.ts", "index.ts"]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "jodit-table-border-adjuster",
+  "version": "1.0.0",
+  "description": "This plugin allows to adjust the border of a table and cells in the Jodit WYSIWYG editor",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./table-border-adjuster.css": "./dist/table-border-adjuster.css"
+  },
+  "scripts": {
+    "demo:watch": "pnpm scss-compile && vite",
+    "demo:build": "pnpm scss-compile && vite build",
+    "scss-compile": "sass --style=compressed src/table-border-adjuster.scss dist/table-border-adjuster.css",
+    "clean": "rm -rf dist",
+    "build": "pnpm clean && pnpm scss-compile && tsc"
+  },
+  "keywords": [
+    "jodit",
+    "jodit-plugin",
+    "jodit-table"
+  ],
+  "author": "Mu hun <iam@muhun.kim> (https://muhun.kim)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mu-hun/jodit-table-border-adjuster.git"
+  },
+  "bugs": {
+    "email": "iam@muhun.kim",
+    "url": "https://github.com/mu-hun/jodit-table-border-adjuster/issues"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b",
+  "dependencies": {
+    "jodit": "^4.5.17"
+  },
+  "devDependencies": {
+    "sass": "^1.87.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}

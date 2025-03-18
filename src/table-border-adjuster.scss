@@ -1,0 +1,96 @@
+:root {
+  --border-width-none: 0;
+  --border-width-normal: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 3px;
+  --border-width-extra-thick: 4px;
+}
+
+.jodit-wysiwyg table {
+  /* Border width variations for top */
+  &[data-border-top="none"] tr:first-of-type :where(td, th) {
+    border-top-width: var(--border-width-none);
+  }
+  &[data-border-top="normal"] tr:first-of-type :where(td, th) {
+    border-top-width: var(--border-width-normal);
+  }
+  &[data-border-top="medium"] tr:first-of-type :where(td, th) {
+    border-top-width: var(--border-width-medium);
+  }
+  &[data-border-top="thick"] tr:first-of-type :where(td, th) {
+    border-top-width: var(--border-width-thick);
+  }
+  &[data-border-top="extra-thick"] tr:first-of-type :where(td, th) {
+    border-top-width: var(--border-width-extra-thick);
+  }
+
+  /* Border width variations for bottom */
+  &[data-border-bottom="none"] tr:last-of-type :where(td, th) {
+    border-bottom-width: var(--border-width-none);
+  }
+  &[data-border-bottom="normal"] tr:last-of-type :where(td, th) {
+    border-bottom-width: var(--border-width-normal);
+  }
+  &[data-border-bottom="medium"] tr:last-of-type :where(td, th) {
+    border-bottom-width: var(--border-width-medium);
+  }
+  &[data-border-bottom="thick"] tr:last-of-type :where(td, th) {
+    border-bottom-width: var(--border-width-thick);
+  }
+  &[data-border-bottom="extra-thick"] tr:last-of-type :where(td, th) {
+    border-bottom-width: var(--border-width-extra-thick);
+  }
+
+  /* Border width variations for left */
+  &[data-border-left="none"] tr :where(td, th):first-of-type {
+    border-left-width: var(--border-width-none);
+  }
+  &[data-border-left="normal"] tr :where(td, th):first-of-type {
+    border-left-width: var(--border-width-normal);
+  }
+  &[data-border-left="medium"] tr :where(td, th):first-of-type {
+    border-left-width: var(--border-width-medium);
+  }
+  &[data-border-left="thick"] tr :where(td, th):first-of-type {
+    border-left-width: var(--border-width-thick);
+  }
+  &[data-border-left="extra-thick"] tr :where(td, th):first-of-type {
+    border-left-width: var(--border-width-extra-thick);
+  }
+
+  /* Border width variations for right */
+  &[data-border-right="none"] tr :where(td, th):last-of-type {
+    border-right-width: var(--border-width-none);
+  }
+  &[data-border-right="normal"] tr :where(td, th):last-of-type {
+    border-right-width: var(--border-width-normal);
+  }
+  &[data-border-right="medium"] tr :where(td, th):last-of-type {
+    border-right-width: var(--border-width-medium);
+  }
+  &[data-border-right="thick"] tr :where(td, th):last-of-type {
+    border-right-width: var(--border-width-thick);
+  }
+  &[data-border-right="extra-thick"] tr :where(td, th):last-of-type {
+    border-right-width: var(--border-width-extra-thick);
+  }
+
+  /* Cell-specific border width adjustments */
+  td {
+    &[data-border-width="none"] {
+      border-width: var(--border-width-none);
+    }
+    &[data-border-width="normal"] {
+      border-width: var(--border-width-normal);
+    }
+    &[data-border-width="medium"] {
+      border-width: var(--border-width-medium);
+    }
+    &[data-border-width="thick"] {
+      border-width: var(--border-width-thick);
+    }
+    &[data-border-width="extra-thick"] {
+      border-width: var(--border-width-extra-thick);
+    }
+  }
+}
