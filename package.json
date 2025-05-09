@@ -1,6 +1,6 @@
 {
   "name": "jodit-table-border-adjuster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin allows to adjust the border of a table and cells in the Jodit WYSIWYG editor",
   "type": "module",
   "main": "dist/index.js",
