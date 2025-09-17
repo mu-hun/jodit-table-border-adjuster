@@ -1,6 +1,6 @@
 # jodit-table-border-adjuster
 
-[![NPM Version](https://img.shields.io/npm/v/jodit-table-border-adjuster)](https://www.npmjs.com/package/jodit-table-border-adjuster)
+[![Publish to NPM Registry](https://github.com/mu-hun/jodit-table-border-adjuster/actions/workflows/cd.yml/badge.svg)](https://github.com/mu-hun/jodit-table-border-adjuster/actions/workflows/cd.yml) [![NPM Version](https://img.shields.io/npm/v/jodit-table-border-adjuster)](https://www.npmjs.com/package/jodit-table-border-adjuster)
 
 This plugin allows to adjust the border of a table and cells in the [Jodit WYSIWYG editor](https://xdsoft.net/jodit/)
 
